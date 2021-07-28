@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "917503642716",
+    "firebase_url": "https://suscribed-abb29.firebaseio.com",
+    "project_id": "suscribed-abb29",
+    "storage_bucket": "suscribed-abb29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917503642716:android:21984064b793419d302a99",
+        "android_client_info": {
+          "package_name": "com.ringstechnology.subscribed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917503642716-hru9ubkc70koa05geqtdokp4ac8unfev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ringstechnology.subscribed",
+            "certificate_hash": "070762946d10e78acdbf5eb27d97f1e807e0b28c"
+          }
+        },
+        {
+          "client_id": "917503642716-88ltpnha9o12ecpkvgvb5t7khtvblu1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvDs9ZNaIXCB6k7ec4XzzCtUlg75apep0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917503642716-88ltpnha9o12ecpkvgvb5t7khtvblu1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Subscribed</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="addSub">Add Service</string>
+    <string name="sub">Upcoming Bills</string>
+    <string name="upcomingSub">Notifications</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="default_notification_channel_id">1</string>
+</resources>

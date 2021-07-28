@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ringstechnology.suscribed">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ringstechnology.subscribed.ContactUs"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.ringstechnology.subscribed.ViewService"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.ringstechnology.subscribed.ListMySubscription"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.ringstechnology.subscribed.AddService"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.ringstechnology.subscribed.SignUp"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.ringstechnology.subscribed.SignIn"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2655831736299916~3717915517" />
+
+        <service
+            android:name="com.ringstechnology.subscribed.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+
+
+        <activity android:name="com.ringstechnology.subscribed.Boot"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ringstechnology.subscribed.DisplayServices"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ringstechnology.subscribed.FragmentHome"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ringstechnology.subscribed.FragmentSignIn"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ringstechnology.subscribed.ListService"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ringstechnology.subscribed.FramentNotifications"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ringstechnology.subscribed.FragmentUpcoming"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ringstechnology.subscribed.FragmentProfile"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ringstechnology.subscribed.FragmentAdd"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ringstechnology.subscribed.MainActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

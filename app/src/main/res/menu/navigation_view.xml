@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_24dp"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/upcoming"
+        android:icon="@drawable/ic_upcoming_24dp"
+        android:title="@string/upcomingSub" />
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add_24dp"
+        android:title="@string/addSub" />
+
+    <item
+        android:id="@+id/current"
+        android:icon="@drawable/ic_services_24dp"
+        android:title="@string/sub" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile_24dp"
+        android:title="@string/profile" />
+
+</menu>

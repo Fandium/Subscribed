@@ -1,0 +1,2 @@
+rootProject.name='Suscribed'
+include ':app'
